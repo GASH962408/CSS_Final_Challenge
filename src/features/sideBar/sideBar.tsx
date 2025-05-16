@@ -36,13 +36,14 @@ export default function Sidebar() {
           </li>
         </ul>
       </nav>
-      
-
       <div className="sidebar__footer">
         <button className="sidebar__create-button">
-          Create New +
+          <span className="sidebar__create-text">Create New</span>
+          <span className="sidebar__create-icon">+</span>
         </button>
       </div>
+
+
     </aside>
   );
 }

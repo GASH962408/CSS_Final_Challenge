@@ -2,6 +2,7 @@
     width: clamp(14rem, 17.2rem, 22rem);
     min-height: 100vh;
     background-color: aqua;
+    margin-right: 2.2rem;
 }
 
 .sidebar__top {
@@ -48,4 +49,46 @@
     border: 1px solid white;
     border-radius: 0.2rem;
     flex-shrink: 0;
+}
+
+
+
+.sidebar__footer {
+    height: 36.1rem;
+    background-color: #3c0a07;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    padding-bottom: 2.7rem;
+}
+
+.sidebar__create-button {
+    width: 11.6rem;
+    height: 3rem;
+    background-color: #FF9F00;
+    color: white;
+    border-radius: 0.7rem;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 0.6rem;
+    cursor: pointer;
+    border: none;
+    text-wrap: nowrap;
+
+}
+
+.sidebar__create-icon {
+    background-color: rgba(255, 255, 255, 0.15);
+    width: 2.1rem;
+    height: 2.1rem;
+    border-radius: 0.6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 1.2rem;
+    line-height: 1;
+    margin-left: 1.5rem;
 }
