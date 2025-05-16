@@ -12,12 +12,18 @@ export default function InfoPanel() {
           <img src={rec} alt="notifications" className="infopanel__icon" />
           <img src={rec} alt="notification" className="infopanel__icon" />
         </div>
-
         <div className="infopanel__info">
           <span className="infopanel__name">Name</span>
           <img src={user_circle} alt="User avatar" className="infopanel__avatar" />
         </div>
+      </section>
 
+      <section className='infopanel__storage'>
+        <div className='infopanel__storage__header'>
+          <span>Storage</span>
+        </div>
+        <div className='infopanel__storage__information'>
+        </div>
       </section>
 
     </aside>
