@@ -11,6 +11,7 @@
     padding: 3.6rem 6.6rem 0 3.2rem;
     display: flex;
     align-items: flex-start;
+    background: #343951;
 }
 
 .sidebar__logo {
@@ -25,8 +26,8 @@
 .sidebar__menu {
     flex: 1;
     overflow-y: auto;
-    padding: 2.9rem 0 2.9rem 3.1rem;
-    background: #FF9F00;
+    padding: 6.6rem 0 2.9rem 3.1rem;
+    background: #343951;
 }
 
 .sidebar__list {
@@ -60,7 +61,7 @@
 .sidebar__footer {
     margin-top: auto;
     padding-bottom: 2.7rem;
-    background: #3c0a07;
+    background: #343951;
     display: flex;
     justify-content: center;
 }

@@ -1,0 +1,50 @@
+.infopanel {
+    width: clamp(20rem, 24.5vw, 32rem);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background: #343951;
+}
+
+
+.infopanel__user {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #27bd54;
+    padding-top: 26px;
+    padding-bottom: 22px;
+}
+
+
+.infopanel__icons {
+    display: flex;
+    gap: 1.3rem;
+    padding-right: 6px;
+}
+
+.infopanel__icon {
+    width: 1.5rem;
+    height: 1.5rem;
+    object-fit: contain;
+}
+
+.infopanel__info {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.infopanel__name {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #fff;
+
+}
+
+.infopanel__avatar {
+    width: 3.1rem;
+    height: 3.1rem;
+    border-radius: 50%;
+    background: #c4c4c4;
+}
