@@ -1,7 +1,8 @@
 .sidebar {
     width: clamp(14rem, 17.2rem, 22rem);
-    min-height: 100vh;
-    background-color: aqua;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
     margin-right: 2.2rem;
 }
 
