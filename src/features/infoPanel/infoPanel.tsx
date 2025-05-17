@@ -27,7 +27,10 @@ export default function InfoPanel() {
           <div className="storage-chart__ring">
             <img src={ring} alt="ring" />
             <div className="storage-chart__content">
-              <span className="storage-chart__percentage">85%</span>
+              <span className="storage-chart__percentage">
+                <span >85</span>
+                <span>%</span>
+              </span>
               <span className="storage-chart__label">Used</span>
             </div>
           </div>
