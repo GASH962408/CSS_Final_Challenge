@@ -76,8 +76,14 @@ export default function InfoPanel() {
         </div>
       </section>
 
-      
-
+      <section className="infopanel__upgrade">
+        <div className="infopanel__upgrade-content">
+          <div className="infopanel__upgrade-image" />
+          <h1 className="infopanel__upgrade-title">Buy more space now!</h1>
+          <p className="infopanel__upgrade-subtitle">Upgrade to cloud premium</p>
+          <button className="infopanel__upgrade-button">Upgrade Account!</button>
+        </div>
+      </section>
     </aside >
   );
 }

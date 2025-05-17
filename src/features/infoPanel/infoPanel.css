@@ -11,16 +11,18 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background: #27bd54;
-    padding-top: 26px;
-    padding-bottom: 22px;
+    background: #F5F6FC;
+    padding-top: 2.6rem;
+    padding-bottom: 2.2rem;
+    border-bottom: .1rem solid gray;
+    height: 7.9rem
 }
 
 
 .infopanel__icons {
     display: flex;
     gap: 1.3rem;
-    padding-right: 6px;
+    padding-right: 0.6re,;
 }
 
 .infopanel__icon {
@@ -39,7 +41,6 @@
     font-size: 1.2rem;
     font-weight: 500;
     color: #fff;
-
 }
 
 .infopanel__avatar {
@@ -49,26 +50,26 @@
     background: #c4c4c4;
 }
 
-
 .infopanel__storage__header {
     min-height: clamp(4.8rem, 8vh, 7.2rem);
     padding-inline: 3.2rem;
     display: flex;
     align-items: center;
-    background: #d92525;
+    background: #F5F6FC;
 }
+
 
 .infopanel__storage__header span {
     font-size: 2rem;
     font-weight: 400;
-    color: #fff;
+    color: #0a0000;
     letter-spacing: 0.04rem;
     margin-top: -0.6rem;
 }
 
 .infopanel__storage-body {
-    height: 193px;
-    background-color: #29bca9;
+    height: 19.3rem;
+    background-color: #F5F6FC;
     display: flex;
     flex-direction: column;
     justify-content: start;
@@ -81,7 +82,7 @@
     position: relative;
     width: 115px;
     height: 115px;
-    background-color: rgb(97, 14, 138);
+    background-color: white;
     border-radius: 50%;
     margin-bottom: 30px;
 }
@@ -119,11 +120,14 @@
 
 .storage-chart__footer {
     font-size: .8rem;
-    font-weight: 400;
+    font-weight: 400; 
     color: #888;
 }
 
-
+.infopanel__storage-cards-container{
+height: 20.4rem;
+margin-bottom: 2.5rem;
+}
 
 .infopanel__storage-card {
     display: flex;
@@ -131,12 +135,10 @@
     width: 100%;
     max-width: 30rem;
     height: 4.398rem;
-    background-color: #F8FAFF;
+    background-color: #F5F6FC;
     box-sizing: border-box;
     padding: 0 0.8rem 0 2.3rem;
     border-radius: 0.8rem;
-    margin-bottom: 0.1rem;
-    border: 0.1rem solid #E0E7F1;
 }
 
 .infopanel__storage-card-icon {
@@ -171,7 +173,7 @@
     width: 5.4rem;
     height: 2.1rem;
     font-size: 0.8rem;
-    background-color: #902626;
+    background-color: #ffffff;
     border: none;
     border-radius: 0.4rem;
     color: #2B2F3D;
@@ -186,6 +188,63 @@
     justify-content: center;
     flex-wrap: wrap;
     padding: 0.4rem 0.9rem;
-    background-color: #bc29b5;
+    background-color: #F5F6FC;
 }
 
+
+
+
+.infopanel__upgrade {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 239px;
+    width: 100%;
+    background-color: F5F6FC;
+    padding-left: 5px;
+    padding-top: 2px;
+}
+
+.infopanel__upgrade-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    background-color: white;
+    height: 194px;
+    width: 194px;
+    border-radius: 18px;
+    padding-top: 17px;
+}
+
+.infopanel__upgrade-image{
+    width: 119px;
+    height: 73px;
+    background: linear-gradient(90deg, #689EF8 0%, #FF6860 55%, #FF9F00 100%);
+    border-radius: 11px;
+}
+
+.infopanel__upgrade-title{
+    margin-top: 23px;
+    font-size: 12px;
+    color: #000000;
+    margin-bottom:5px;
+
+}
+
+.infopanel__upgrade-subtitle{
+font-size: 8px;
+letter-spacing: 0.05rem;
+margin-bottom: 15px;
+}
+
+.infopanel__upgrade-button{
+    width:116px;
+    height:30px;
+    border: none;
+    border-radius: 7px;
+    font-size: 10px;
+    background-color: #FF9F00;
+    font-weight: 500;
+    color: white;
+}
