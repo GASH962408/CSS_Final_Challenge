@@ -31,12 +31,53 @@ export default function InfoPanel() {
               <span className="storage-chart__label">Used</span>
             </div>
           </div>
-        <p className="storage-chart__footer">
-          420.2 GB of 500 GB used
-        </p>
+          <p className="storage-chart__footer">
+            420.2 GB of 500 GB used
+          </p>
+        </div>
+      </section>
+
+
+      <section className='infopanel__storage-cards-container'>
+        <div className="infopanel__storage-card">
+          <div className="infopanel__storage-card-icon"></div>
+          <div className="infopanel__storage-card-info">
+            <span className="infopanel__storage-card-title">Documents</span>
+            <span className="infopanel__storage-card-subtitle">720 files</span>
+          </div>
+          <button className="infopanel__storage-card-button">200 GB</button>
         </div>
 
+        <div className="infopanel__storage-card">
+          <div className="infopanel__storage-card-icon"></div>
+          <div className="infopanel__storage-card-info">
+            <span className="infopanel__storage-card-title">Documents</span>
+            <span className="infopanel__storage-card-subtitle">720 files</span>
+          </div>
+          <button className="infopanel__storage-card-button">200 GB</button>
+        </div>
+
+        <div className="infopanel__storage-card">
+          <div className="infopanel__storage-card-icon"></div>
+          <div className="infopanel__storage-card-info">
+            <span className="infopanel__storage-card-title">Documents</span>
+            <span className="infopanel__storage-card-subtitle">720 files</span>
+          </div>
+          <button className="infopanel__storage-card-button">200 GB</button>
+        </div>
+
+        <div className="infopanel__storage-card">
+          <div className="infopanel__storage-card-icon"></div>
+          <div className="infopanel__storage-card-info">
+            <span className="infopanel__storage-card-title">Documents</span>
+            <span className="infopanel__storage-card-subtitle">720 files</span>
+          </div>
+          <button className="infopanel__storage-card-button">200 GB</button>
+        </div>
       </section>
+
+      
+
     </aside >
   );
 }

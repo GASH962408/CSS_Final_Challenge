@@ -122,3 +122,70 @@
     font-weight: 400;
     color: #888;
 }
+
+
+
+.infopanel__storage-card {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 30rem;
+    height: 4.398rem;
+    background-color: #F8FAFF;
+    box-sizing: border-box;
+    padding: 0 0.8rem 0 2.3rem;
+    border-radius: 0.8rem;
+    margin-bottom: 0.1rem;
+    border: 0.1rem solid #E0E7F1;
+}
+
+.infopanel__storage-card-icon {
+    flex-shrink: 0;
+    width: 2.8rem;
+    height: 2.8rem;
+    background-color: orange;
+    border-radius: 0.6rem;
+}
+
+.infopanel__storage-card-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 5.3rem 0 0.7rem;
+}
+
+.infopanel__storage-card-title {
+    font-size: 1rem;
+    line-height: 1;
+    color: #2B2F3D;
+}
+
+.infopanel__storage-card-subtitle {
+    font-size: 0.8rem;
+    line-height: 1;
+    color: #7F86A0;
+    margin-top: 0.1rem;
+}
+
+.infopanel__storage-card-button {
+    width: 5.4rem;
+    height: 2.1rem;
+    font-size: 0.8rem;
+    background-color: #902626;
+    border: none;
+    border-radius: 0.4rem;
+    color: #2B2F3D;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.infopanel__storage-cards-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0.4rem 0.9rem;
+    background-color: #bc29b5;
+}
+
