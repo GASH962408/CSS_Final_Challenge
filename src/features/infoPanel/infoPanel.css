@@ -4,6 +4,7 @@
     display: flex;
     flex-direction: column;
     background: #343951;
+    margin-left: 1.5rem;
 }
 
 
@@ -39,8 +40,8 @@
 
 .infopanel__name {
     font-size: 1.2rem;
-    font-weight: 500;
-    color: #fff;
+    font-weight: 400;
+    color: #000000;
 }
 
 .infopanel__avatar {
@@ -251,7 +252,7 @@
     height: 3.0rem;
     border: none;
     border-radius: .7rem;
-    font-size: .1rem;
+    font-size: 1rem;
     background-color: #FF9F00;
     font-weight: 500;
     color: white;
