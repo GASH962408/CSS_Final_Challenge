@@ -7,7 +7,6 @@ import orange from "../../assets/orange.png"
 export default function MainContent() {
   return (
     <main className="main-container">
-
       <section className="main-content__input">
         <form className="main-content__search-form">
           <div className="main-content__search-box">

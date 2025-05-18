@@ -4,6 +4,7 @@
     display: flex;
     flex-direction: column;
     margin-right: 2.2rem;
+    flex-shrink: 0;
 }
 
 
@@ -95,138 +96,9 @@
     line-height: 1;
 }
 
-.Recent-files-header {
-    height: 50px;
-    background-color: #FF6860;
-    display: flex;
-    align-items: end;
-    justify-content: space-between;
+
+@media (max-width: 480px) {
+    .sidebar {
+        display: none;
+    }
 }
-
-
-.Recent-files-header {
-    height: 50px;
-    background-color: #FF6860;
-    display: flex;
-    align-items: end;
-    justify-content: space-between;
-    padding-left: 14px;
-    padding-right: 20px;
-}
-
-.recent_title {
-    font-size: 20px;
-    font-weight: 400;
-}
-
-.recent_subtitle {
-    font-size: 12px;
-    font-weight: 400;
-    margin-bottom: 5px;
-}
-
-.table-container {
-    background-color: #f5f6fc;
-}
-
-.table {
-    width: 100%;
-    max-width: 52.8rem;
-    border-collapse: collapse;
-    font-family: 'Roboto', sans-serif;
-    margin-inline: auto;
-    padding-top: 12px;
-}
-
-.table__header {
-    display: block;
-    margin-top: 16px;
-}
-
-.table__body {
-    display: block;
-}
-
-.table__row {
-    display: grid;
-    grid-template-columns: 49.05% 23.54% 21.49% 5.87%;
-    align-items: center;
-    background: white;
-    border-radius: 1rem;
-    height: 4.2rem;
-    padding-inline: 1rem;
-    box-shadow: 0 0.1rem 0.2rem rgba(0, 0, 0, 0.05);
-    margin-bottom: 1.6rem;
-}
-
-.table__row--header {
-    background: transparent;
-    box-shadow: none;
-    height: auto;
-    font-weight: 400;
-    color: #7f86a0;
-    font-size: 1.2rem;
-    padding-inline: 1rem;
-    text-align: left;
-}
-
-.table__cell {
-    font-size: 1.2rem;
-    color: #2b2f3d;
-}
-
-
-.table__name-group {
-    display: flex;
-    align-items: center;
-    gap: 1.1rem;
-    padding-left: 1px;
-}
-
-.table__icon {
-    width: 2.1rem;
-    height: 2.1rem;
-    background: orange;
-    border-radius: 0.4rem;
-}
-
-.table__title {
-    color: #000000;
-}
-
-.table__dots {
-    width: 0.3rem;
-    height: 1.3rem;
-    opacity: 0.5;
-    transform: rotate(90deg);
-}
-
-
-
-.share-header {
-    height: 46px;
-    background-color: #FF6860;
-    display: flex;
-    align-items: end;
-    justify-content: space-between;
-    padding-left: 14px;
-    padding-right: 20px;
-    margin-bottom: 2px;
-}
-
-.share_title {
-    font-size: 20px;
-    font-weight: 400;
-}
-
-.share_subtitle {
-    font-size: 12px;
-    font-weight: 400;
-    margin-bottom: 5px;
-}
-
-.cards-shared{
-height: 123px;
-background-color: #10ce65;
-}
-
