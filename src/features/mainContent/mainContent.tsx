@@ -44,7 +44,7 @@ export default function MainContent() {
           </div>
         </div>
 
-                <div className="card">
+        <div className="card">
           <div className="card__top">
             <div className="card__icons">
               <img src={orange} alt="" className="card__icon-background" />
@@ -62,7 +62,7 @@ export default function MainContent() {
           </div>
         </div>
 
-                <div className="card">
+        <div className="card">
           <div className="card__top">
             <div className="card__icons">
               <img src={orange} alt="" className="card__icon-background" />
@@ -79,9 +79,57 @@ export default function MainContent() {
             <p className="card__date">Created: 20.02.2020</p>
           </div>
         </div>
+      </section>
+
+      <section className='Recent-files-header'>
+        <h1 className='recent_title'>Recent Files</h1>
+        <span className='recent_subtitle'>View All</span>
+      </section>
+
+      <section className="table-container">
+        <table className="table">
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Members</th>
+              <th>Last Modified</th>
+              <th></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr className="table__row">
+              <td className="table__name">
+                <div className="table__cell-wrapper">
+                  <div className="table__icon" />
+                  <span className="table__title">Travel Landing Page</span>
+                </div>
+              </td>
+              <td className="table__members">5 members</td>
+              <td className="table__date">Mar 8, 2020</td>
+              <td className="table__menu">
+                <img src={dots} alt="options" className="table__menu-icon" />
+              </td>
+            </tr>
+
+            <tr className="table__row">
+              <td className="table__name">
+                <div className="table__cell-wrapper">
+                  <div className="table__icon" />
+                  <span className="table__title">Travel Landing Page</span>
+                </div>
+              </td>
+              <td className="table__members">5 members</td>
+              <td className="table__date">Mar 8, 2020</td>
+              <td className="table__menu">
+                <img src={dots} alt="options" className="table__menu-icon" />
+              </td>
+            </tr>
+          </tbody>
+        </table>
 
       </section>
 
-    </main>
+
+    </main >
   );
 }
