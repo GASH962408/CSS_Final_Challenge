@@ -160,16 +160,59 @@ export default function MainContent() {
                 <img src={dots} alt="options" className="table__dots" />
               </td>
             </tr>
-
           </tbody>
         </table>
-
-
-
-
-
       </section>
 
+      <section className='share-header'>
+        <h1 className='share_title'>Share with me</h1>
+        <span className='share_subtitle'>View All</span>
+      </section>
+
+
+      <section className='cards-shared-container'>
+        <div className='card-shared'>
+          <div className='shared-header'>
+            <div className='orange-rect'></div>
+            <div className='circles-wrapper'>
+              <div className='circle circle--green'></div>
+              <div className='circle circle--red'></div>
+            </div>
+          </div>
+          <div className='shared-bottom'>
+            <h1>Landing Page</h1>
+            <span>Created:20.02.2020</span>
+          </div>
+        </div>
+
+        <div className='card-shared'>
+          <div className='shared-header'>
+            <div className='orange-rect'></div>
+            <div className='circles-wrapper'>
+              <div className='circle circle--green'></div>
+              <div className='circle circle--red'></div>
+            </div>
+          </div>
+          <div className='shared-bottom'>
+            <h1>Landing Page</h1>
+            <span>Created:20.02.2020</span>
+          </div>
+        </div>
+
+        <div className='card-shared'>
+          <div className='shared-header'>
+            <div className='orange-rect'></div>
+            <div className='circles-wrapper'>
+              <div className='circle circle--green'></div>
+              <div className='circle circle--red'></div>
+            </div>
+          </div>
+          <div className='shared-bottom'>
+            <h1>Landing Page</h1>
+            <span>Created:20.02.2020</span>
+          </div>
+        </div>
+      </section>
 
     </main >
   );

@@ -172,3 +172,82 @@
     margin-left: 0.4rem;
     letter-spacing: 0.05rem;
 }
+
+.cards-shared-container {
+    background-color: aqua;
+    height: 12.3rem;
+    padding-left: 1.6rem;
+    padding-top: 1rem;
+    display: flex;
+    gap: 13px;
+}
+
+.card-shared {
+    width: 15.7rem;
+    height: 7.9rem;
+    background-color: white;
+    border-radius: 1.2rem;
+    padding-top: 1.6rem;
+    padding-left: 0.9rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.shared-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Rectángulo naranja */
+.orange-rect {
+    width: 3rem;
+    height: 2.6rem;
+    background-color: orange;
+}
+
+
+.circles-wrapper {
+    position: relative;
+    width: 3rem;
+    height: 1.8rem;
+    margin-right: 3.8rem;
+}
+
+
+.circle {
+    width: 1.8rem;
+    height: 1.8rem;
+    border-radius: 50%;
+    border: 0.15rem solid #ccc;
+    position: absolute;
+    top: 0;
+}
+
+.circle--green {
+    left: 0;
+    border-color: #3cb371;
+}
+
+.circle--red {
+    left: 1rem;
+    border-color: #ff4d4d;
+}
+
+.shared-bottom {
+    margin-bottom: 0.4rem;
+}
+
+
+.shared-bottom h1 {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #2b2f3d;
+    margin: 0;
+}
+
+.shared-bottom span {
+    font-size: 0.9rem;
+    color: #888;
+}

@@ -201,3 +201,32 @@
     transform: rotate(90deg);
 }
 
+
+
+.share-header {
+    height: 46px;
+    background-color: #FF6860;
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    padding-left: 14px;
+    padding-right: 20px;
+    margin-bottom: 2px;
+}
+
+.share_title {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.share_subtitle {
+    font-size: 12px;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+
+.cards-shared{
+height: 123px;
+background-color: #10ce65;
+}
+
