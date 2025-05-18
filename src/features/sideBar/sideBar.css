@@ -126,100 +126,78 @@
 }
 
 .table-container {
-  background-color: #f5f6fc;
+    background-color: #f5f6fc;
 }
 
 .table {
-  width: 52.8rem;
-  border-collapse: separate;
-  border-spacing: 0 1rem; 
-  margin-left: 1.5rem; 
+    width: 100%;
+    max-width: 52.8rem;
+    border-collapse: collapse;
+    font-family: 'Roboto', sans-serif;
+    margin-inline: auto;
+    padding-top: 12px;
 }
 
-th {
-  text-align: left;
-  font-size: 1.2rem;
-  color: #7f86a0;
-  font-weight: 400;
-  padding-top: 0.6rem;
-  padding-bottom: 0.8rem;
+.table__header {
+    display: block;
+    margin-top: 16px;
 }
 
-th:nth-child(1) {
-  width: 22.8rem;
-}
-
-th:nth-child(2) {
-  width: 10rem;
-  padding-left: 1rem;
-}
-
-th:nth-child(3) {
-  width: 12rem;
-  padding-left: 1rem;
+.table__body {
+    display: block;
 }
 
 .table__row {
-  background-color: white;
-  height: 4.2rem;
-  border-radius: 1rem;
-  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+    display: grid;
+    grid-template-columns: 49.05% 23.54% 21.49% 5.87%;
+    align-items: center;
+    background: white;
+    border-radius: 1rem;
+    height: 4.2rem;
+    padding-inline: 1rem;
+    box-shadow: 0 0.1rem 0.2rem rgba(0, 0, 0, 0.05);
+    margin-bottom: 1.6rem;
+}
+
+.table__row--header {
+    background: transparent;
+    box-shadow: none;
+    height: auto;
+    font-weight: 400;
+    color: #7f86a0;
+    font-size: 1.2rem;
+    padding-inline: 1rem;
+    text-align: left;
+}
+
+.table__cell {
+    font-size: 1.2rem;
+    color: #2b2f3d;
 }
 
 
-.table__name {
-  padding-left: 1.2rem;
-  padding-top: 0.3rem;
-}
-
-.table__cell-wrapper {
-  display: flex;
-  align-items: center;
-  gap: 1.2rem;
+.table__name-group {
+    display: flex;
+    align-items: center;
+    gap: 1.1rem;
+    padding-left: 1px;
 }
 
 .table__icon {
-  width: 2.1rem;
-  height: 2.1rem;
-  background-color: orange;
-  border-radius: 0.4rem;
-  flex-shrink: 0;
+    width: 2.1rem;
+    height: 2.1rem;
+    background: orange;
+    border-radius: 0.4rem;
 }
 
 .table__title {
-  font-size: 1.2rem;
-  font-weight: 400;
-  color: #2b2f3d;
+    color: #000000;
 }
 
-.table__members,
-.table__date{
-    font-size: 1.2rem;
-}
-
-.table__members{
-    padding-top: 5px;
-    padding-left: 5px;
-}
-
-.table__date{
-padding-left: 18px;
-padding-top: 5px;
-}
-
-
-
-.table__menu {
-  width: 2.4rem;
-  text-align: start;
-  padding-top: 4px;
-  padding-left: 5px;
-}
-
-.table__menu-icon {
-  width: 3px;
-  height: 13px;
-  opacity: 0.5;
-  transform: rotate(90deg);
+.table__dots {
+    width: 0.3rem;
+    height: 1.3rem;
+    opacity: 0.5;
+    transform: rotate(90deg);
 }
 
