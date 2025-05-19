@@ -39,8 +39,8 @@ export default function CardsUsed() {
                 </div>
 
                 <div className="card__bottom">
-                    <h2 className="card__title">App Project</h2>
-                    <p className="card__date">Created: 20.02.2020</p>
+                    <h2 className="card__title">Project:fitbit</h2>
+                    <p className="card__date">Created: 28.02.2020</p>
                 </div>
             </div>
 
@@ -57,8 +57,8 @@ export default function CardsUsed() {
                 </div>
 
                 <div className="card__bottom">
-                    <h2 className="card__title">App Project</h2>
-                    <p className="card__date">Created: 20.02.2020</p>
+                    <h2 className="card__title">Client Documents</h2>
+                    <p className="card__date">Created: 4.03.2020</p>
                 </div>
             </div>
         </section>

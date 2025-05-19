@@ -36,8 +36,6 @@ export default function MainContent() {
         <span className='share_subtitle'>View All</span>
       </section>
       <CardsShared />
-
-
     </main >
   );
 }

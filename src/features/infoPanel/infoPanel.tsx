@@ -2,17 +2,29 @@ import user_circle from '../../assets/user_circle.png';
 import './infoPanel.css';
 import ring from "../../assets/rings.png"
 import { FiMoon, FiBell } from 'react-icons/fi';
-//import { useState } from 'react';
+import { useEffect, useState } from 'react';
 
 
 export default function InfoPanel() {
-  //const [darkMode, setDarkmode] = useState(false)
+  const [darkMode, setDarkmode] = useState(false)
+
+  useEffect(() => {
+    document.documentElement.setAttribute(
+      'data-theme',
+      darkMode ? 'dark' : 'light'
+    );
+  }, [darkMode]);
+
   return (
     <aside className="infopanel">
       <section className="infopanel__user">
         <div className="infopanel__icons">
           <FiBell className="infopanel__icon" />
-          <FiMoon className="infopanel__icon" />
+          <FiMoon
+            className="infopanel__icon"
+            onClick={() => setDarkmode((prev) => !prev)}
+            title="Toggle dark mode"
+          />
         </div>
         <div className="infopanel__info">
           <span className="infopanel__name">Name</span>

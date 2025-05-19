@@ -61,6 +61,16 @@
     --text-main: #343951;
     --text-subtitle: #858A9D;
     --back-white: #ffffff;
-    --back-orange:#ff9f00;
-    --border-g:#E0E7F1;
+    --back-orange: #ff9f00;
+    --border-g: #E0E7F1;
+}
+
+[data-theme='dark'] {
+    --main: #343951;
+    --secondary: #2c2c3c;
+    --text-main: #f0f0f0;
+    --text-subtitle: #aaa;
+    --back-white: #2c2c3c;
+    --back-orange: #f39c12;
+    --border-g: #3c3c3c;
 }

@@ -1,5 +1,5 @@
 .table-container {
-    background-color: #F5F6FC;
+    background-color: var(--main);
     padding-left: 1.6rem;
     padding-right: 1.8rem;
     overflow-x: auto;
@@ -30,7 +30,7 @@
     display: grid;
     grid-template-columns: 49.05% 23.54% 21.49% 5.87%;
     align-items: center;
-    background: #FFFFFF;
+    background: var(--back-white);
     border-radius: 1rem;
     height: 4.2rem;
     padding-inline: 1rem;
@@ -51,7 +51,7 @@
 .table__row--header th:nth-child(1),
 .table__row--header th:nth-child(2),
 .table__row--header th:nth-child(3) {
-    color: #858A9D;
+    color: var(--text-subtitle);
     font-weight: 400;
 }
 
@@ -59,7 +59,7 @@
 
 .table__cell {
     font-size: 1.2rem;
-    color: #858A9D;
+    color: var(--text-subtitle);
 }
 
 
@@ -78,7 +78,7 @@
 }
 
 .table__title {
-    color: #343951;
+    color: var(--text-main);
 }
 
 .table__dots {
