@@ -2,19 +2,55 @@
     display: flex;
     justify-content: space-between;
     height: 100vh;
-    width: 100vw;
+    width: 100%;
+    overflow-x: hidden;
+    position: relative;
+}
+
+.hamburger {
+    position: fixed;
+    top: 1rem;
+    z-index: 1000;
+    background: transparent;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    display: none;
+}
+
+.hamburger--left {
+    left: 1rem;
+}
+
+.hamburger--right {
+    right: 1rem;
+}
+
+@media (max-width: 768px) {
+    .hamburger {
+        display: block;
+    }
 }
 
 
-@media (max-width: 480px) {
+.overlay {
+    position: relative;
+    z-index: 1;
+}
 
-    .sidebar,
-    .infopanel {
-        display: none;
-    }
+.overlay--active {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    height: 100vh;
+    z-index: 100;
+}
 
-    .main-container {
-        flex: 1;
-        width: 100vw;
-    }
+
+.sidebar-overlay {
+    left: 0;
+}
+
+.infopanel-overlay {
+    right: 0;
 }

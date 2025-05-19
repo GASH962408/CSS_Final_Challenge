@@ -12,7 +12,7 @@
 .card {
     width: 15.9rem;
     height: 13.3rem;
-    background-color: white;
+    background-color: #ffffff;
     border-radius: 1.2rem;
     display: grid;
     grid-template-rows: 1fr auto;
@@ -63,8 +63,8 @@
     width: 1.8rem;
     height: 1.8rem;
     border-radius: 50%;
-    border: 1px solid #ccc;
-    background-color: white;
+    border: 0.5px solid #BEC0C8;
+    background-color: #FFFFFF;
     z-index: 1;
 }
 
@@ -88,14 +88,14 @@
 .card__title {
     font-size: 1.2rem;
     font-weight: 400;
-    color: #2B2F3D;
+    color: #343951;
     margin-bottom: 0.9rem;
     margin-left: .3rem;
 }
 
 .card__date {
     font-size: 0.8rem;
-    color: #7F86A0;
+    color: #858A9D;
     margin-bottom: 1rem;
     margin-left: 0.4rem;
     letter-spacing: 0.05rem;

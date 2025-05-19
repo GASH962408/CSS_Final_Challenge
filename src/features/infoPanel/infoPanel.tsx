@@ -1,4 +1,3 @@
-import React from 'react';
 import rec from '../../assets/rec.png';
 import user_circle from '../../assets/user_circle.png';
 import './infoPanel.css';

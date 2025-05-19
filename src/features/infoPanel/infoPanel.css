@@ -17,7 +17,7 @@
     background: #F5F6FC;
     padding-top: 2.6rem;
     padding-bottom: 2.2rem;
-    border-bottom: .1rem solid gray;
+    border-bottom: .1rem solid #E0E7F1;
     height: 7.9rem
 }
 
@@ -43,7 +43,7 @@
 .infopanel__name {
     font-size: 1.2rem;
     font-weight: 400;
-    color: #000000;
+    color: #343951;
 }
 
 .infopanel__avatar {
@@ -65,7 +65,7 @@
 .infopanel__storage__header span {
     font-size: 2rem;
     font-weight: 400;
-    color: #0a0000;
+    color: #343951;
     letter-spacing: 0.04rem;
     margin-top: -0.6rem;
 }
@@ -85,7 +85,7 @@
     position: relative;
     width: 115px;
     height: 115px;
-    background-color: white;
+    background-color: #ffffff;
     border-radius: 50%;
     margin-bottom: 30px;
 }
@@ -126,13 +126,13 @@
 .storage-chart__label {
     font-size: 1.4rem;
     font-weight: 400;
-    color: #888;
+    color: #858A9D;
 }
 
 .storage-chart__footer {
     font-size: .8rem;
     font-weight: 400;
-    color: #888;
+    color: #858A9D;
 }
 
 .infopanel__storage-cards-container {
@@ -149,7 +149,7 @@
     background-color: #F5F6FC;
     box-sizing: border-box;
     padding: 0 0.8rem 0 2.3rem;
-    border-radius: 0.8rem;
+    border-bottom: 0.1rem solid #E0E7F1 ;
 }
 
 .infopanel__storage-card-icon {
@@ -170,13 +170,13 @@
 .infopanel__storage-card-title {
     font-size: 1rem;
     line-height: 1;
-    color: #2B2F3D;
+    color: #343951;
 }
 
 .infopanel__storage-card-subtitle {
     font-size: 0.8rem;
     line-height: 1;
-    color: #7F86A0;
+    color: #858A9D;
     margin-top: 0.1rem;
 }
 
@@ -187,7 +187,7 @@
     background-color: #ffffff;
     border: none;
     border-radius: 0.4rem;
-    color: #2B2F3D;
+    color: #343951;
     cursor: pointer;
     display: flex;
     justify-content: center;
@@ -202,15 +202,13 @@
 }
 
 
-
-
 .infopanel__upgrade {
     display: flex;
     justify-content: center;
     align-items: start;
     height: 23.9rem;
     width: 100%;
-    background-color: F5F6FC;
+    background-color: #F5F6FC;
     padding-left: .5rem;
     padding-top: .1rem;
 }
@@ -231,14 +229,14 @@
 .infopanel__upgrade-image {
     width: 11.9rem;
     height: 7.3rem;
-    background: linear-gradient(90deg, #689EF8 0%, #FF6860 55%, #FF9F00 100%);
+    background: linear-gradient(90deg, #FF9F00 0%, #FF6860 56%, #689EF8 100%);
     border-radius: 1.1rem;
 }
 
 .infopanel__upgrade-title {
     margin-top: 2.3rem;
     font-size: 1.2rem;
-    color: #000000;
+    color: #343951;
     margin-bottom: .4rem;
 
 }
@@ -248,6 +246,7 @@
     letter-spacing: 0.05rem;
     margin-bottom: 1.5rem;
     margin-left: .3rem;
+    color: #858A9D;
 }
 
 .infopanel__upgrade-button {
@@ -258,17 +257,5 @@
     font-size: 1rem;
     background-color: #FF9F00;
     font-weight: 500;
-    color: white;
-}
-
-@media (max-width: 768px) {
-    .infopanel {
-        display: none;
-    }
-}
-
-@media (max-width: 480px) {
-    .infopanel {
-        display: none;
-    }
+    color: #ffffff;
 }

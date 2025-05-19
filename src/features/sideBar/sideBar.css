@@ -22,10 +22,6 @@
     background: linear-gradient(90deg, #FF9F00 0%, #FF6860 56%, #689EF8 100%);
 }
 
-
-
-
-
 .sidebar__footer {
     margin-top: auto;
     padding-bottom: 2.7rem;
@@ -40,7 +36,7 @@
     border: none;
     border-radius: 0.7rem;
     background: #FF9F00;
-    color: #fff;
+    color: #ffffff;
     font-size: 1rem;
     display: flex;
     align-items: center;
@@ -61,11 +57,4 @@
     font-weight: 700;
     font-size: 1.2rem;
     line-height: 1;
-}
-
-
-@media (max-width: 480px) {
-    .sidebar {
-        display: none;
-    }
 }

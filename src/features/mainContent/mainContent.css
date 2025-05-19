@@ -34,9 +34,8 @@
     width: 100%;
     max-width: 72.7rem;
     height: 2.9rem;
-    background-color: white;
+    background-color: #FFFFFF;
     border-radius: 0.5rem;
-    border: 0.1rem solid #C4C4C4;
     padding-left: 1rem;
     gap: 0.8rem;
 }
@@ -44,7 +43,6 @@
 .main-content__search-icon {
     width: 1.5rem;
     height: 1.5rem;
-
     background-color: transparent;
 }
 
