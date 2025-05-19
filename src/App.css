@@ -5,6 +5,7 @@
     width: 100%;
     overflow-x: hidden;
     position: relative;
+    gap: 1.9rem;
 }
 
 .hamburger {

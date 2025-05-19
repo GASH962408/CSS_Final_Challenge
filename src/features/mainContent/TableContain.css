@@ -9,17 +9,16 @@
 
 .table {
     width: 100%;
-    max-width: 100rem;
     border-collapse: collapse;
     font-family: 'Roboto', sans-serif;
-    padding-top: 12px;
+    padding-top: 1.2rem;
     box-sizing: border-box;
 }
 
 
 .table__header {
     display: block;
-    margin-top: 16px;
+    margin-top: 1.6rem;
 }
 
 .table__body {
@@ -67,7 +66,7 @@
     display: flex;
     align-items: center;
     gap: 1.1rem;
-    padding-left: 1px;
+    padding-left: .1rem;
 }
 
 .table__icon {
