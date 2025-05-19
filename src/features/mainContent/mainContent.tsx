@@ -4,16 +4,24 @@ import TableContain from './TableContain';
 import CardsShared from './CardsShared';
 import { FiSearch } from "react-icons/fi";
 import { FiSettings, FiGrid } from "react-icons/fi";
+import { useState } from 'react';
 
 
 export default function MainContent() {
+  const [searchTerm,setSearchTerm] = useState("")
   return (
     <main className="main-container">
       <section className="main-content__input">
         <form className="main-content__search-form">
           <div className="main-content__search-box">
             <FiSearch className="main-content__search-icon" />
-            <span className="main-content__search-placeholder">Search</span>
+            <input
+              type="text"
+              placeholder="Search"
+              value={searchTerm}
+              className="main-content__search-input"
+              onChange={(e) => setSearchTerm(e.target.value)}
+            />
           </div>
         </form>
       </section>

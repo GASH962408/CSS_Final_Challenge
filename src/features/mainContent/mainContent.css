@@ -42,13 +42,24 @@
 .main-content__search-icon {
     width: 1.5rem;
     height: 1.5rem;
-    background-color: transparent;
+    color: var(--text-main)
 }
 
 .main-content__search-placeholder {
     font-size: 1rem;
     color: #BCBECA;
 }
+
+.main-content__search-input {
+    font-size: 1rem;
+    color: var(--text-main);
+    background: transparent;
+    border: none;
+    outline: none;
+    width: 100%;
+    height: 100%;
+}
+
 
 .main-content__recently-header {
     height: 4.7rem;
@@ -137,4 +148,3 @@
     margin-bottom: 5px;
     color: var(--text-main);
 }
-
