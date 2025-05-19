@@ -2,11 +2,11 @@ import user_circle from '../../assets/user_circle.png';
 import './infoPanel.css';
 import ring from "../../assets/rings.png"
 import { FiMoon, FiBell } from 'react-icons/fi';
-import { useState } from 'react';
+//import { useState } from 'react';
 
 
 export default function InfoPanel() {
-  const [darkMode, setDarkmode] = useState(false)
+  //const [darkMode, setDarkmode] = useState(false)
   return (
     <aside className="infopanel">
       <section className="infopanel__user">
