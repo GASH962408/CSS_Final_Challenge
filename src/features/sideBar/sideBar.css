@@ -19,9 +19,9 @@
     width: 7.4rem;
     height: 2.1rem;
     border-radius: 0.5rem;
-    background: linear-gradient(90deg,
-            #689EF8 0%, #FF6860 56%, #FF9F00 100%);
+    background: linear-gradient(90deg, #FF9F00 0%, #FF6860 56%, #689EF8 100%);
 }
+
 
 
 

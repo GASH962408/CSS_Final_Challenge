@@ -1,31 +1,32 @@
 import "./SideBarMenu.css"
+import { FiHome, FiFolder, FiClock, FiUsers, FiUploadCloud, FiTrash } from "react-icons/fi";
 
 export default function SideBarMenu() {
     return (
         <nav className="sidebar__menu">
             <ul className="sidebar__list">
                 <li className="sidebar__item">
-                    <span className="sidebar__icon" />
+                    <FiHome className="sidebar__icon" />
                     Home
                 </li>
                 <li className="sidebar__item">
-                    <span className="sidebar__icon" />
+                    <FiFolder className="sidebar__icon" />
                     My Files
                 </li>
                 <li className="sidebar__item">
-                    <span className="sidebar__icon" />
+                    <FiClock className="sidebar__icon" />
                     Recent Files
                 </li>
                 <li className="sidebar__item">
-                    <span className="sidebar__icon" />
+                    <FiUsers className="sidebar__icon" />
                     Shared Files
                 </li>
                 <li className="sidebar__item">
-                    <span className="sidebar__icon" />
+                    <FiUploadCloud className="sidebar__icon" />
                     File Request
                 </li>
                 <li className="sidebar__item">
-                    <span className="sidebar__icon" />
+                    <FiTrash className="sidebar__icon" />
                     Trash
                 </li>
             </ul>

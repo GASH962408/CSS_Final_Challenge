@@ -2,6 +2,9 @@ import './mainContent.css';
 import CardsUsed from './CardsUsed';
 import TableContain from './TableContain';
 import CardsShared from './CardsShared';
+import { FiSearch } from "react-icons/fi";
+import { FiSettings, FiGrid } from "react-icons/fi";
+
 
 export default function MainContent() {
   return (
@@ -9,7 +12,7 @@ export default function MainContent() {
       <section className="main-content__input">
         <form className="main-content__search-form">
           <div className="main-content__search-box">
-            <span className="main-content__search-icon" />
+            <FiSearch className="main-content__search-icon" />
             <span className="main-content__search-placeholder">Search</span>
           </div>
         </form>
@@ -18,8 +21,8 @@ export default function MainContent() {
       <section className="main-content__recently-header">
         <h1 className="main-content__recently-header-title">Recently Used</h1>
         <div className="main-content__recently-header-icons">
-          <span className="main-content__recently-header-icon" />
-          <span className="main-content__recently-header-icon" />
+          <FiSettings className="main-content__recently-header-icon" />
+          <FiGrid className="main-content__recently-header-icon" />
         </div>
       </section>
       <CardsUsed />
