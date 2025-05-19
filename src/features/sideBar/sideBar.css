@@ -28,6 +28,7 @@
     background: #343951;
     display: flex;
     justify-content: center;
+    position: relative;
 }
 
 .sidebar__create-button {
@@ -44,6 +45,8 @@
     gap: 1.5rem;
     cursor: pointer;
     text-wrap: nowrap;
+    position: relative;
+    z-index: 1;
 }
 
 .sidebar__create-icon {
