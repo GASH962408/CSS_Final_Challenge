@@ -6,9 +6,14 @@ import { useEffect, useState } from 'react';
 
 
 export default function InfoPanel() {
-  const [darkMode, setDarkmode] = useState(false)
+  const [darkMode, setDarkmode] = useState(() => {
+    const saved = localStorage.getItem("darkMode");
+    return saved === "true"; 
+  })
+
 
   useEffect(() => {
+    localStorage.setItem("darkMode", String(darkMode));
     document.documentElement.setAttribute(
       'data-theme',
       darkMode ? 'dark' : 'light'

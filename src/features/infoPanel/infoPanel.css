@@ -152,6 +152,9 @@
     background-color: var(--main);
     box-sizing: border-box;
     padding: 0 0.8rem 0 2.3rem;
+}
+
+.infopanel__storage-card:not(:last-child) {
     border-bottom: 0.1rem solid #E0E7F1;
 }
 
