@@ -1,10 +1,10 @@
 .main-container {
-    height: 100vh;
     width: clamp(36rem, 56.2rem, 100%);
-    background-color: var(--main);
+    height: 100vh;
     flex: 1;
     display: flex;
     flex-direction: column;
+    background-color: var(--main);
 }
 
 .main-content__input {
@@ -114,7 +114,6 @@
 }
 
 
-
 .recent-files-header {
     height: 50px;
     background-color: var(--main);
@@ -122,7 +121,6 @@
     align-items: end;
     justify-content: space-between;
 }
-
 
 
 .share-header {

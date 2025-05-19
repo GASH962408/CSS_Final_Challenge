@@ -2,7 +2,6 @@
     background-color: var(--main);
     padding-left: 1.6rem;
     padding-right: 1.8rem;
-    overflow-x: auto;
     box-sizing: border-box;
 }
 
