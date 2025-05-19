@@ -5,7 +5,7 @@
     height: 100vh;
     display: flex;
     flex-direction: column;
-    background: #F5F6FC;
+    background: var(--main);
     margin-left: 1.5rem;
 }
 
@@ -14,7 +14,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background: #F5F6FC;
+    background: var(--main);
     padding-top: 2.6rem;
     padding-bottom: 2.2rem;
     border-bottom: .1rem solid #E0E7F1;
@@ -32,7 +32,10 @@
     width: 1.5rem;
     height: 1.5rem;
     object-fit: contain;
+    color: var(--text-main);
+    cursor: pointer;
 }
+
 
 .infopanel__info {
     display: flex;
@@ -43,7 +46,7 @@
 .infopanel__name {
     font-size: 1.2rem;
     font-weight: 400;
-    color: #343951;
+    color: var(--text-main);
 }
 
 .infopanel__avatar {
@@ -58,21 +61,21 @@
     padding-inline: 3.2rem;
     display: flex;
     align-items: center;
-    background: #F5F6FC;
+    background: var(--main);
 }
 
 
 .infopanel__storage__header span {
     font-size: 2rem;
     font-weight: 400;
-    color: #343951;
+    color: var(--text-main);
     letter-spacing: 0.04rem;
     margin-top: -0.6rem;
 }
 
 .infopanel__storage-body {
     height: 19.3rem;
-    background-color: #F5F6FC;
+    background-color: var(--main);
     display: flex;
     flex-direction: column;
     justify-content: start;
@@ -85,7 +88,7 @@
     position: relative;
     width: 115px;
     height: 115px;
-    background-color: #ffffff;
+    background-color: var(--back-white);
     border-radius: 50%;
     margin-bottom: 30px;
 }
@@ -112,13 +115,13 @@
 .storage-chart__percentage>span:first-child {
     font-size: 2.4rem;
     font-weight: 400;
-    color: #343951;
+    color: var(--text-main);
 }
 
 .storage-chart__percentage>span:nth-child(2) {
     font-size: 1.6rem;
     font-weight: 400;
-    color: #343951;
+    color: var(--text-main);
     margin-left: .2rem;
 }
 
@@ -126,13 +129,13 @@
 .storage-chart__label {
     font-size: 1.4rem;
     font-weight: 400;
-    color: #858A9D;
+    color: var(--text-subtitle);
 }
 
 .storage-chart__footer {
     font-size: .8rem;
     font-weight: 400;
-    color: #858A9D;
+    color: var(--text-subtitle);
 }
 
 .infopanel__storage-cards-container {
@@ -146,10 +149,10 @@
     width: 100%;
     max-width: 100%;
     height: 4.398rem;
-    background-color: #F5F6FC;
+    background-color: var(--main);
     box-sizing: border-box;
     padding: 0 0.8rem 0 2.3rem;
-    border-bottom: 0.1rem solid #E0E7F1 ;
+    border-bottom: 0.1rem solid #E0E7F1;
 }
 
 .infopanel__storage-card-icon {
@@ -170,13 +173,13 @@
 .infopanel__storage-card-title {
     font-size: 1rem;
     line-height: 1;
-    color: #343951;
+    color: var(--text-main);
 }
 
 .infopanel__storage-card-subtitle {
     font-size: 0.8rem;
     line-height: 1;
-    color: #858A9D;
+    color: var(--text-subtitle);
     margin-top: 0.1rem;
 }
 
@@ -184,10 +187,10 @@
     width: 5.4rem;
     height: 2.1rem;
     font-size: 0.8rem;
-    background-color: #ffffff;
+    background-color: var(--back-white);
     border: none;
     border-radius: 0.4rem;
-    color: #343951;
+    color: var(--text-main);
     cursor: pointer;
     display: flex;
     justify-content: center;
@@ -208,7 +211,7 @@
     align-items: start;
     height: 23.9rem;
     width: 100%;
-    background-color: #F5F6FC;
+    background-color: var(--main);
     padding-left: .5rem;
     padding-top: .1rem;
 }
@@ -236,7 +239,7 @@
 .infopanel__upgrade-title {
     margin-top: 2.3rem;
     font-size: 1.2rem;
-    color: #343951;
+    color: var(--text-main);
     margin-bottom: .4rem;
 
 }
@@ -246,7 +249,7 @@
     letter-spacing: 0.05rem;
     margin-bottom: 1.5rem;
     margin-left: .3rem;
-    color: #858A9D;
+    color: var(--text-subtitle);
 }
 
 .infopanel__upgrade-button {
@@ -255,7 +258,7 @@
     border: none;
     border-radius: .7rem;
     font-size: 1rem;
-    background-color: #FF9F00;
+    background-color: var(--back-orange);
     font-weight: 500;
     color: #ffffff;
 }

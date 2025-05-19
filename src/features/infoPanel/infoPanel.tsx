@@ -1,15 +1,18 @@
-import rec from '../../assets/rec.png';
 import user_circle from '../../assets/user_circle.png';
 import './infoPanel.css';
 import ring from "../../assets/rings.png"
+import { FiMoon, FiBell } from 'react-icons/fi';
+import { useState } from 'react';
+
 
 export default function InfoPanel() {
+  const [darkMode, setDarkmode] = useState(false)
   return (
     <aside className="infopanel">
       <section className="infopanel__user">
         <div className="infopanel__icons">
-          <img src={rec} alt="notifications" className="infopanel__icon" />
-          <img src={rec} alt="notification" className="infopanel__icon" />
+          <FiBell className="infopanel__icon" />
+          <FiMoon className="infopanel__icon" />
         </div>
         <div className="infopanel__info">
           <span className="infopanel__name">Name</span>

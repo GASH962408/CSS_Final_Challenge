@@ -33,7 +33,7 @@
 .orange-rect {
     width: 3rem;
     height: 2.6rem;
-    background-color: orange;
+    background-color: #FF9F00;
 }
 
 
@@ -72,13 +72,13 @@
 .shared-bottom h1 {
     font-size: 1.2rem;
     font-weight: 500;
-    color: #2b2f3d;
+    color: #343951;
     margin: 0;
 }
 
 .shared-bottom span {
     font-size: 0.9rem;
-    color: #888;
+    color: #858A9D;
 }
 
 .cards-shared {
