@@ -14,10 +14,7 @@ export default function InfoPanel() {
 
   useEffect(() => {
     localStorage.setItem("darkMode", String(darkMode));
-    document.documentElement.setAttribute(
-      'data-theme',
-      darkMode ? 'dark' : 'light'
-    );
+    document.documentElement.setAttribute('data-theme',darkMode ? 'dark' : 'light');
   }, [darkMode]);
 
   return (

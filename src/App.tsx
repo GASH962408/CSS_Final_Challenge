@@ -13,6 +13,7 @@ function App() {
   const isMobile = width <= 480;
   const isTablet = width <= 768;
 
+
   useEffect(() => {
     const handleResize = () => {
       setWidth(window.innerWidth);
@@ -27,6 +28,7 @@ function App() {
     return () => window.removeEventListener('resize', handleResize);
   }, []);
 
+  
   return (
     <>
       {isMobile && (
