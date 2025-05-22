@@ -1,35 +1,69 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import './App.css';
+import InfoPanel from './features/infoPanel/infoPanel';
+import MainContent from './features/mainContent/mainContent';
+import SideBar from './features/sideBar/sideBar';
+import { FiMenu } from 'react-icons/fi';
+import { useState, useEffect } from 'react';
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [width, setWidth] = useState(window.innerWidth);
+  const [showSidebar, setShowSidebar] = useState(false);
+  const [showInfoPanel, setShowInfoPanel] = useState(false);
 
+  const isMobile = width <= 480;
+  const isTablet = width <= 768;
+
+
+  useEffect(() => {
+    const handleResize = () => {
+      setWidth(window.innerWidth);
+      if (window.innerWidth > 768) {
+        setShowInfoPanel(false);
+      }
+      if (window.innerWidth > 480) {
+        setShowSidebar(false);
+      }
+    };
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
+
+  
   return (
     <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
+      {isMobile && (
+        <button
+          className="hamburger hamburger--left"
+          onClick={() => setShowSidebar((prev) => !prev)}
+        >
+          <FiMenu size={24} />
         </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
+      )}
+
+      {isTablet && (
+        <button
+          className="hamburger hamburger--right"
+          onClick={() => setShowInfoPanel((prev) => !prev)}
+        >
+          <FiMenu size={24} />
+        </button>
+      )}
+
+      <div className="app-container">
+        {(showSidebar || !isMobile) && (
+          <div className={`overlay sidebar-overlay ${isMobile ? 'overlay--active' : ''}`}>
+            <SideBar />
+          </div>
+        )}
+        <MainContent />
+        {(showInfoPanel || !isTablet) && (
+          <div className={`overlay infopanel-overlay ${isTablet ? 'overlay--active' : ''}`}>
+            <InfoPanel />
+          </div>
+        )}
       </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
